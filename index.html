@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <div class="logo">
+                <h1>ALPN</h1>
+            </div>
+    
+            <div id="hamburger" class="hamburger">
+                <i class="ph ph-list"></i>
+            </div>
+    
+            <ul id="hamburger-list" class="hidden">
+                <li>
+                    <a href="#profile">Profile</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li class="none">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="none">
+                    <a href="">Project</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="myself" id="profile">
+            <div class="banner">
+                <img src="Image/Banner.jpg" alt="Banner">
+            </div>
+
+            <div class="profile">
+                <img src="Image/Profile.jpg" alt="Foto Profile">
+                <h1 class="name">Alpian</h1>
+                <p class="job">Frond End Developer</p>
+                <div class="student">
+                    <i class="ph ph-student"></i>
+                    <p>Mahasiswa Pendidikan</p>
+                </div>
+
+                <div class="location">
+                    <i class="ph ph-map-pin"></i>
+                    <p>Indonesia</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="regarding" id="about">
+            <p class="about">Halo, saya Alpian, seorang front-end developer pemula otodidak dengan fokus menciptakan pengalaman web menarik dan responsive.<span id="dots">..</span>
+                <span id="show" class="show">
+                    Saya berkomitmen untuk terus belajar dan mengembangkan keterampilan dalam HTML, CSS, JavaScript agar dapat menghasilkan desain yang memukau dan antarmuka yang intuitif. Hubungi saya untuk proyek dan peluang kerja sama.
+                </span>
+            </p>
+            <span id="read" class="read">Read More...</span>
+        </section>
+
+        <section class="skills" id="skills">
+            <h5>Skills</h5>
+            <div class="line"></div>
+            <div class="list-skills">
+                <div class="skill">
+                    <div class="html">
+                        <img src="Image/Skills/html.png" alt="">
+                        <p class="t-html">HTML</p>
+                        <div class="level">
+                            <p class="tl">Mahir</p>
+                        </div>
+                    </div>
+
+                    <div class="css">
+                        <img src="Image/Skills/css.png" alt="">
+                        <p class="t-css">CSS</p>
+                        <div class="level">
+                            <p class="tl">Menengah</p>
+                        </div>
+                    </div>
+                    
+                    <div class="js">
+                        <img src="Image/Skills/js.png" alt="">
+                        <p class="t-js">JavaScript</p>
+                        <div class="level">
+                            <p class="tl">Pemula</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project">
+            <h5>Last Project</h5>
+            <div class="line"></div>
+            <div class="box-project">
+                <div class="abp">
+                    <div class="bp">
+                        <img src="Image/Project/1.jpg" alt="">
+                        <div class="intro">
+                            <h1>Batu Gunting Kertas</h1>
+                            <p>Status : Sedang Update</p>
+                        </div>
+                    </div> 
+
+                    <div class="link-p" id="p1">
+                        <a href="" id="p1">Project Link</a>
+                        <p>n</p>
+                    </div>
+                </div>
+
+                <div class="abp">
+                    <div class="bp">
+                        <img src="Image/Project/2.jpg" alt="">
+                        <div class="intro">
+                            <h1>Hit Mario</h1>
+                            <p>Status : Sedang Update</p>
+                        </div>
+                    </div>
+
+                    <div class="link-p">
+                        <a href="" id="p2">Project Link</a>
+                        <p>n</p>
+                    </div>
+                </div>
+
+                <div class="abp">
+                    <div class="bp">
+                        <img src="Image/Project/cs.jpg" alt="">
+                        <div class="intro">
+                            <h1>Coming Soon</h1>
+                            <p>Status : Nunggu Good Mood</p>
+                        </div>
+                    </div>
+
+                    <div class="link-p">
+                        <a href="" id="p3">Project Link</a>
+                        <p>n</p>
+                    </div>
+                </div>
+
+                <div class="abp">
+                    <div class="bp">
+                        <img src="Image/Project/cs.jpg" alt="">
+                        <div class="intro">
+                            <h1>Coming Soon</h1>
+                            <p>Status : Nunggu Good Mood</p>
+                        </div>
+                    </div>
+
+                    <div class="link-p" id="p4">
+                        <a href="">Project Link</a>
+                        <p>n</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h5>Contact Me :</h5>
+            <div class="sosmed">
+                <a href="https://github.com/Sky-Alpn">
+                    <div class="button" id="github">
+                        <div class="icon">
+                            <i class="ph ph-github-logo"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSGMvRnKCPsbGvkKBDqXtjrfkzQTXJbtPLqXjxfbZSJwvCNLCDVjNMSDWhNWDctfdcBVSdWV">
+                    <div class="button" id="gmail">
+                        <div class="icon">
+                            <i class="ph ph-envelope-simple"></i>
+                            <p>Gmail</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/sky_alpn/">
+                    <div class="button" id="instagram">
+                        <div class="icon">
+                            <i class="ph ph-instagram-logo"></i>
+                            <p>Insragram</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Web Portofolio Alpian</p>
+        <p>&#169 Alpn 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
